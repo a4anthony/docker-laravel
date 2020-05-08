@@ -1,0 +1,47 @@
+#actionBtn a {
+    margin-bottom: .5rem;
+}
+
+.container-fluid h1 {
+    color: #333!important;
+}
+
+#actiionBtn .btn {
+    border: none;
+}
+
+#actionBtn a.edit {
+    border: none;
+}
+
+#actionBtn a.delete {
+    background: red;
+    border: none;
+}
+
+#actionBtn a.pause {
+    background: orange;
+    border: none;
+}
+
+#actionBtn a.delete:hover {
+    background: rgb(245, 125, 125);
+    border: none;
+}
+
+#actionBtn a.pause:hover {
+    background: rgb(248, 206, 128);
+    border: none;
+}
+
+.dropdown-toggle i {
+    color: #152538!important;
+    font-size: 1.5rem;
+}
+
+#products-link-1:hover,
+#products-link-2:hover,
+#products-link-3:hover,
+#products-link-4:hover {
+    cursor: pointer;
+}
