@@ -1,0 +1,5 @@
+# Created by .ignore support plugin (hsz.mobi)
+/src/
+/docker/socket/
+/docker/mysql/
+/.env

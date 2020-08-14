@@ -1,5 +1,5 @@
 # PHP Version alpine image to install based on the PHP_VERSION environment variable
-FROM php:7.4-fpm-alpine
+FROM php:7.4.6-fpm-alpine
 
 # Application environment variable
 ARG APP_ENV
@@ -37,6 +37,11 @@ RUN apk update && apk add --no-cache $PHPIZE_DEPS \
    php7-dom \
    php7-session \
    php7-zlib
+
+#RUN curl -sL https://deb.nodesource.com/setup_10.x | bash -
+#RUN npm cache clean --force
+#RUN npm cache verify
+#RUN npm install
 
 # Install extensions
 RUN docker-php-ext-install pdo pdo_mysql
